@@ -13,8 +13,7 @@ class Driver {
   }
 
   passengers() {
-      let trips = this.trips();
-      return trips.passengers;
+    this.trips();
   }
 }
 
