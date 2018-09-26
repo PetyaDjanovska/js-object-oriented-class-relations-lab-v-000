@@ -28,4 +28,8 @@ class Trip {
     this.passengerId = passenger.id;
     store.trips.push(this);
   }
+
+  passenger(){
+    return this.passenger
+  }
 }
