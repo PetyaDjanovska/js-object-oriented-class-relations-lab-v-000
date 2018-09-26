@@ -2,7 +2,7 @@ let driverId = 0;
 
 class Driver {
   debugger
-  construstor(name) {
+  constructor(name) {
     this.id = ++driverId;
     this.name = name;
   }
