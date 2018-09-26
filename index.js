@@ -33,7 +33,7 @@ class Passenger {
 
   driverss() {
     let passengerTrips = this.trips();
-    return driverTrips.map(t => t.passenger());
+    return passengerTrips.map(t => t.passenger());
   }
 }
 
