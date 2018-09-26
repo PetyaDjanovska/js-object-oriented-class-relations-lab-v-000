@@ -30,6 +30,6 @@ class Trip {
   }
 
   passenger(){
-    return this.passengerId;
+    return this.passenger;
   }
 }
