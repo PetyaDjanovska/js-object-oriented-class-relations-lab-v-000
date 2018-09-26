@@ -8,3 +8,5 @@ class Driver {
     store.drivers.push(this);
   }
 }
+
+let passengerId = 0;
