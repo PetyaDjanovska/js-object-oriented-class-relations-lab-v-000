@@ -13,6 +13,7 @@ class Driver {
   }
 
   passengers() {
+    debugger;
     this.trips();
   }
 }
