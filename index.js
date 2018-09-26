@@ -13,7 +13,7 @@ class Driver {
   }
 
   passengers() {
-    return this.trips.map(t => t.passenger);
+    return this.trips.map(t => t.passenger());
   }
 }
 
