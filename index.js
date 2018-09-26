@@ -1,7 +1,7 @@
 let driverId = 0;
 
 class Driver {
-  construstor(name){
+  construstor(name) {
     this.id = ++driverId;
     this.name = name;
   }
