@@ -1,7 +1,7 @@
 let driverId = 0;
 
 class Driver {
-  debugger;
+  debugger
   construstor(name) {
     this.id = ++driverId;
     this.name = name;
